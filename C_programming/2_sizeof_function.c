@@ -5,6 +5,7 @@
 
 int main()
 {
+    
     /*data types size is compiler dependent but char,short,long,long long, float,double,long double
     have constant size among compilers*/
     printf("size of char is %d Byte\n",sizeof(char));

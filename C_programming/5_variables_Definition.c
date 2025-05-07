@@ -18,6 +18,7 @@ float Number7=7000,Number8=30000,Number9=20000;
 3)the set of operations that can be applied to the variable*/
 int main()
 {
+    
     /*uninitialized local varibales takes garbage value*/
     unsigned char num2;
     printf("num1: %d\n",num1);

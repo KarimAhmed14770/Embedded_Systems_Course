@@ -14,6 +14,7 @@
 
 int main()
 {
+    
     /*1) syntax errors: errors that occur in compilation time due to typing mistakes or not following the language syntax*/
    
     //unsignd int num1; typing mistake

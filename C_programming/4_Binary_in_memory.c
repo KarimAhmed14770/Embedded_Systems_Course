@@ -10,6 +10,7 @@ unsigned char num2=0xFB;/*1111_1011*/
 
 int main()
 {
+    
 
     printf("num1: %c\n", num1);
     printf("num2: %c\n", num2);

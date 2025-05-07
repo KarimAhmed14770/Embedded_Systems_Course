@@ -7,6 +7,7 @@ char num1=0xFB,num2=0xFB;
 
 int main()
 {
+    
     /*integer promotion:data types like char or short int take less number of  bytes
     than int , these data types are automatically promoted to int or unsigned int when
     an operation is performed on them */
