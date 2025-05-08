@@ -54,7 +54,7 @@ int main()
     printf("Result=0x%x\n",NumberOne&NumberTwo);//0000 1100 0x0C
     printf("Result=0x%x\n",NumberOne|NumberTwo);//0011 1101 0x3D
     printf("Result=0x%x\n",NumberOne^NumberTwo);//0011 0001 0x31
-    printf("Result=0x%x\n",(~NumberOne));//1100 0011 0xC3, take care of integer promotion
+    printf("Result=0x%x\n",(char)(~NumberOne));//1100 0011 0xC3, take care of integer promotion
     NumberThree=~NumberOne;
     printf("Result=0x%x\n",NumberThree);
     printf("Result=0x%x\n",~NumberTwo);//1111 0010 0xF2
