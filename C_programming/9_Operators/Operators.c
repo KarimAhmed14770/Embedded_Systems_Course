@@ -56,6 +56,16 @@ int main()
     printf("Result=%i\n",NumberOne>=NumberTwo);
     printf("Result=%i\n",NumberOne<=NumberTwo);
     printf("Result=%i\n",NumberOne!=NumberTwo);
+
+    /******************************Logical Operators*******************************/
+    printf("\n\n******************************Logical Operators******************************\n\n");
+    NumberOne=1; NumberTwo=0;
+    printf("Result=%i\n",NumberOne&&NumberTwo);
+    printf("Result=%i\n",NumberOne||NumberTwo);
+    printf("Result=%i\n",!NumberOne);
+    printf("Result=%i\n",!NumberTwo);
+    printf("Result=%i\n",(!NumberOne)&&(NumberTwo));
+    printf("Result=%i\n",(NumberOne)&&(!NumberTwo));
     return 0;
 
 }
